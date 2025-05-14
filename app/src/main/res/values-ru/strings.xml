@@ -1,0 +1,122 @@
+<resources>
+    <!-- Важные -->
+    <string name="app_name">LeviLauncher</string>
+    <string name="minecraft">Minecraft</string>
+    <string name="version">Версия</string>
+    <string name="launch">Запустить</string>
+
+    <!-- Моды -->
+    <string name="mods_title">🧩 Моды (%d)</string>
+    <string name="no_mods_found">Моды не найдены</string>
+
+    <!-- О приложении -->
+    <string name="about_title">☕ О приложении</string>
+    <string name="copyright">©2024–2025 LeviMC. Все права защищены.</string>
+    <string name="font_license">Это приложение использует шрифт Misans.</string>
+
+    <!-- Диалоги -->
+    <string name="resourcepack_detected_title">Обнаружен набор ресурсов</string>
+    <string name="resourcepack_detected_message">Хотите запустить игру сейчас?\n\nНабор ресурсов: %s</string>
+    <string name="launch_now">Запустить сейчас</string>
+    <string name="launch_later">Запустить позже</string>
+
+    <string name="import_confirmation_title">Импортировать моды</string>
+    <string name="import_confirmation_message">Вы уверены в том что хотите импортировать выбранные %d файлы модов?</string>
+    <string name="overwrite_file_title">Файл Уже Существует</string>
+    <string name="overwrite_file_message">Файл %s уже существует. Вы хотите перезаписать его?</string>
+    <string name="overwrite">Перезаписать</string>
+    <string name="skip">Пропустить</string>
+    <string name="confirm">Подтвердить</string>
+
+    <string name="installed_packages">Установленные пакеты</string>
+    <string name="local_custom">Доступные версии</string>
+
+    <!-- Разрешения -->
+    <string name="storage_permission_title">Необходимо разрешение на доступ к хранилищу</string>
+    <string name="storage_permission_message">Пожалуйста выдайте доступ к хранилищу для доступа к папке модов и для определения модов.</string>
+    <string name="grant_permission">Выдать</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Обратная связь -->
+    <string name="files_processed">Успешно добавлены файлы мода %d </string>
+    <string name="files_processing_error">Не удалось добавить файл: %s</string>
+    <string name="user_cancelled">Импорт отменён пользователем</string>
+
+    <string name="error">Ошибка</string>
+
+    <string name="no_install_minecraft">Сначала установите Minecraft</string>
+    <string name="no_minecraft">Выйти</string>
+    <string name="exit">Выйти</string>
+
+    <string name="overlay_permission_message">Необходимо разрешение на отображение поверх других приложений</string>
+    <string name="overlay_permission_not_granted">Разрешение на отображение поверх других приложений не выдано</string>
+    <string name="storage_permission_not_granted">Разрешение на доступ к хранилищу не выдано</string>
+
+    <string name="import_apk">Импортировать APK</string>
+    <string name="install">Установить</string>
+    <string name="version_name">Название версии</string>
+    <string name="name_invalid">Данное название нельзя использовать или оно уже занято!</string>
+    <string name="install_done">Установка завершена, версия: %1$s</string>
+
+    <string name="illegal_apk_title">Нелегальный APK</string>
+    <string name="not_mc_apk">Не APK Minecraft</string>
+
+    <string name="not_found_version">Версия не найдена</string>
+
+    <string name="installing_title">Установка…</string>
+    <string name="installing_message">Пожалуйста подождите, установка Minecraft</string>
+
+    <string name="enable_debug_log">Включить журнал отладки</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_desc">Настройки вашего лаунчера</string>
+
+    <string name="unknown_sources_permission_title">Разрешение на установку</string>
+    <string name="unknown_sources_permission_message">Чтобы установить или обновить это приложение, пожалуйста выдайте разрешение на установку неизвестных приложений. Нажмите "Выдать" чтобы открыть настройки системы, выдайте разрешение для этого приложения, и вернитесь чтобы продолжить.</string>
+
+    <string name="check_update">Проверить обновления</string>
+    <string name="version_prefix">Версия: </string>
+
+
+    <string name="new_version_found">Найдена новая версия: %1$s</string>
+    <string name="update_question">Вы хотите скачать и установить последнюю версию?</string>
+    <string name="download_update">Скачать обновление</string>
+    <string name="ignore_this_version">Игнорировать эту версию</string>
+    <string name="update_progress">Прогресс скачивания: %1$d%%</string>
+    <string name="update_failed">Не удалось скачать: %1$s</string>
+    <string name="install_failed">Не удалось установить обновление: %1$s</string>
+    <string name="already_latest_version">Уже последняя версия (%1$s)</string>
+    <string name="version_ignored">Эта версия была проигнорирована</string>
+    <string name="downloading_update">Скачивание обновления…</string>
+
+    <string name="repair_libs_in_progress">Восстановление файлов библиотеки игры…</string>
+    <string name="repair_completed">Восстановление завершено</string>
+    <string name="repair_libs_success_message">Файлы библиотек игры успешно восстановлены. Вы можете запустить игру.</string>
+    <string name="repair_failed">Не удалось восстановить</string>
+    <string name="repair_libs_failed_message">Не удалось восстановить файлы библиотек игры. Пожалуйста проверьте целостность файлов.</string>
+    <string name="repair_error">Ошибка восстановления</string>
+    <string name="repair_libs_error_message">Произошла ошибка во время восстановления: %s</string>
+    <string name="missing_libs_title">Отсутствуют файлы библиотек игры - %s</string>
+    <string name="missing_libs_message">Необходимые файлы библиотек игры отсутствуют. Хотите восстановить их сейчас?</string>
+    <string name="repair">Восстановить</string>
+    <string name="repair_libs_dialog_title">Восстановление библиотек игры</string>
+    <string name="requires_repair">[Необходимо восстановление]</string>
+
+    <string name="theme_title">Тема</string>
+    <string name="theme_follow_system">Как в системе</string>
+    <string name="theme_light">Светлая тема</string>
+    <string name="theme_dark">Тёмная тема</string>
+
+    <string name="error_no_browser">Браузер не доступен</string>
+
+    <string name="eula_title">Лицензионное соглашение LeviLauncher</string>
+    <string name="eula_message"><b>Добро пожаловать в LeviLauncher</b>\n\nПри использовании данной программы вы соглашаетесь с тем что:\n\n• Это <b>неофициальный</b> лаунчер Minecraft\n• Вам необходимо владеть <b>лицензионной</b> копией Minecraft\n• Любая форма пиратства и читов запрещена\n• Моды/наборы ресурсов используются на ваш риск\n• Не связано с Mojang/Microsoft\n\nДальнейшее использование означает согласие с лицензионным соглашением</string>
+    <string name="eula_agree">Принять</string>
+    <string name="eula_exit">Отклонить</string>
+
+    <!-- Настройки языка -->
+    <string name="language">Язык</string>
+    <string name="english">English</string>
+    <string name="chinese">简体中文</string>
+    <string name="russian">Русский</string>
+</resources>

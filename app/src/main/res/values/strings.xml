@@ -53,6 +53,9 @@
     <string name="storage_permission_not_granted">Storage permission not granted</string>
 
     <string name="import_apk">Import APK</string>
+    <string name="install">Install</string>
+    <string name="version_name">Version name</string>
+    <string name="name_invalid">This name cannot be used or is already taken!</string>
     <string name="install_done">Install finished, version: %1$s</string>
 
     <string name="illegal_apk_title">Illegal APK</string>
@@ -115,4 +118,5 @@
     <string name="language">Language</string>
     <string name="english">English</string>
     <string name="chinese">简体中文</string>
+    <string name="russian">Русский</string>
 </resources>

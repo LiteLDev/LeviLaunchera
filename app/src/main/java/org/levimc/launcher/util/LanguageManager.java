@@ -55,14 +55,17 @@ public class LanguageManager {
         popup.setOnMenuItemClickListener(item -> {
             int itemId = item.getItemId();
             if (itemId == R.id.action_english) {
-                setAppLanguage("en");
-                return true;
-            } else if (itemId == R.id.action_chinese) {
-                setAppLanguage("zh");
-                return true;
-            }
-            return false;
-        });
+            setAppLanguage("en");
+            return true;
+        } else if (itemId == R.id.action_chinese) {
+            setAppLanguage("zh");
+            return true;
+        } else if (itemId == R.id.action_russian) {
+            setAppLanguage("ru");
+            return true;
+        }
+        return false;
+    });
 
         popup.show();
     }

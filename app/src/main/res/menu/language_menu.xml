@@ -4,6 +4,9 @@
         android:id="@+id/action_english"
         android:title="@string/english"/>
     <item
+        android:id="@+id/action_russian"
+        android:title="@string/russian"/>
+    <item
         android:id="@+id/action_chinese"
         android:title="@string/chinese"/>
 </menu>
